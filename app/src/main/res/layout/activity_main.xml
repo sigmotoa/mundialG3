@@ -28,7 +28,7 @@
     <HorizontalScrollView
         android:id="@+id/hs_flags"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:backgroundTint="@color/jade"
         android:orientation="horizontal"
         android:scrollbars="none"
@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <ImageButton
+            <ImageView
                 android:scaleType="fitCenter"
                 android:adjustViewBounds="true"
                 android:id="@+id/ib_flag0"
@@ -52,88 +52,88 @@
                 android:layout_marginHorizontal="8dp"
                 android:backgroundTint="@color/celestial_blue"
                 android:src="@drawable/twotone_flag_24"
-                app:tint="@color/safron" />
+                />
 
-            <ImageButton
+            <ImageView
                 android:id="@+id/ib_flag1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:backgroundTint="@color/celestial_blue"
                 android:src="@drawable/twotone_flag_24"
-                app:tint="@color/safron" />
+                />
 
-            <ImageButton
+            <ImageView
                 android:id="@+id/ib_flag2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:backgroundTint="@color/celestial_blue"
                 android:src="@drawable/twotone_flag_24"
-                app:tint="@color/safron" />
+                />
 
-            <ImageButton
+            <ImageView
                 android:id="@+id/ib_flag3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:backgroundTint="@color/celestial_blue"
                 android:src="@drawable/twotone_flag_24"
-                app:tint="@color/safron" />
+                />
 
-            <ImageButton
+            <ImageView
                 android:id="@+id/ib_flag4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:backgroundTint="@color/celestial_blue"
                 android:src="@drawable/twotone_flag_24"
-                app:tint="@color/safron" />
+                 />
 
-            <ImageButton
+            <ImageView
                 android:id="@+id/ib_flag5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:backgroundTint="@color/celestial_blue"
                 android:src="@drawable/twotone_flag_24"
-                app:tint="@color/safron" />
+               />
 
-            <ImageButton
+            <ImageView
                 android:id="@+id/ib_flag6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:backgroundTint="@color/celestial_blue"
                 android:src="@drawable/twotone_flag_24"
-                app:tint="@color/safron" />
+                />
 
-            <ImageButton
+            <ImageView
                 android:id="@+id/ib_flag7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:backgroundTint="@color/celestial_blue"
                 android:src="@drawable/twotone_flag_24"
-                app:tint="@color/safron" />
+                 />
 
-            <ImageButton
+            <ImageView
                 android:id="@+id/ib_flag8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:backgroundTint="@color/celestial_blue"
                 android:src="@drawable/twotone_flag_24"
-                app:tint="@color/safron" />
+               />
 
-            <ImageButton
+            <ImageView
                 android:id="@+id/ib_flag9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:backgroundTint="@color/celestial_blue"
                 android:src="@drawable/twotone_flag_24"
-                app:tint="@color/safron" />
+                />
 
 
         </LinearLayout>
