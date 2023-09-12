@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         ImageView imgF0 = findViewById(R.id.img_flag0);
+        ImageView imgF1 = findViewById(R.id.img_flag1);
+
 
        //Usamos Glide para las cards
         Glide.with(this)
@@ -37,6 +39,11 @@ public class MainActivity extends AppCompatActivity {
                 .centerInside()
                 .circleCrop()
                 .into(imgF0);
+        Glide.with(this)
+                .load("https://flagcdn.com/w640/no.png")
+                .centerInside()
+                .circleCrop()
+                .into(imgF1);
 
         //Usamos picasso para el horizontal Scroll
         Picasso.get()
